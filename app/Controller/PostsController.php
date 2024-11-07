@@ -13,7 +13,7 @@ class PostsController extends AppController{
 
     }
 
-    public function Acceuil(){
+    public function index(){
         $posts = $this->Post->banc();
         $categories = $this->Category->all();
         $this->render('posts.Acceuil', compact('posts', 'categories'));

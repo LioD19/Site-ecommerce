@@ -45,19 +45,19 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="#" class="navbar-link">Acceuil</a>
+            <a href="index.php?=posts.Acceuil" class="navbar-link">Acceuil</a>
           </li>
 
           <li>
-            <a href="index.php?=" class="navbar-link">A propos</a>
+            <a href="index.php?=post.about" class="navbar-link">A propos</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Produits</a>
+            <a href="index.php?=posts.produit" class="navbar-link">Produits</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Se connecter</a>
+            <a href="index.php?p=users.login" class="navbar-link">Se connecter</a>
           </li>
 
         </ul>
@@ -405,20 +405,6 @@
 
                         <?php endforeach; ?>
                     </p>
-                    <p>
-                        <?php foreach(App::getInstance()->getTable('Post')->meuble() as $post): ?>
-
-                            <p><?= $post->ExtraitOther; ?></p>
-
-                        <?php endforeach; ?>
-                    </p>
-                    <p>
-                        <?php foreach(App::getInstance()->getTable('Post')->meuble() as $post): ?>
-
-                            <p><?= $post->ExtraitOther; ?></p>
-
-                        <?php endforeach; ?>
-                    </p>
                 
             </div>
             <p class="voir__plus"><a href="index.php?p=posts.category&id=1">Voir +</a></p>
@@ -456,20 +442,6 @@
                             <p>
                             <?= $post->ExtraitOther; ?>
                             </p>
-
-                        <?php endforeach; ?>
-                    </p>
-                    <p>
-                        <?php foreach(App::getInstance()->getTable('Post')->meuble() as $post): ?>
-
-                            <p><?= $post->ExtraitOther; ?></p>
-
-                        <?php endforeach; ?>
-                    </p>
-                    <p>
-                        <?php foreach(App::getInstance()->getTable('Post')->meuble() as $post): ?>
-
-                            <p><?= $post->ExtraitOther; ?></p>
 
                         <?php endforeach; ?>
                     </p>
@@ -512,20 +484,7 @@
 
                         <?php endforeach; ?>
                     </p>
-                    <p>
-                        <?php foreach(App::getInstance()->getTable('Post')->meuble() as $post): ?>
-
-                            <p><?= $post->ExtraitOther; ?></p>
-
-                        <?php endforeach; ?>
-                    </p>
-                    <p>
-                        <?php foreach(App::getInstance()->getTable('Post')->meuble() as $post): ?>
-
-                            <p><?= $post->ExtraitOther; ?></p>
-
-                        <?php endforeach; ?>
-                    </p>
+                    
             </div>
             <p class="voir__plus"><a href="index.php?p=posts.category&id=3">Voir +</a></p>
         </div>
@@ -565,20 +524,6 @@
 
                         <?php endforeach; ?>
                     </p>
-                    <p>
-                        <?php foreach(App::getInstance()->getTable('Post')->meuble() as $post): ?>
-
-                            <p><?= $post->ExtraitOther; ?></p>
-
-                        <?php endforeach; ?>
-                    </p>
-                    <p>
-                        <?php foreach(App::getInstance()->getTable('Post')->meuble() as $post): ?>
-
-                            <p><?= $post->ExtraitOther; ?></p>
-
-                        <?php endforeach; ?>
-                    </p>
             </div>
             <p class="voir__plus"><a href="index.php?p=posts.category&id=4">Voir +</a></p>
         </div>
@@ -615,20 +560,6 @@
                             <p>
                             <?= $post->ExtraitOther; ?>
                             </p>
-
-                        <?php endforeach; ?>
-                    </p>
-                    <p>
-                        <?php foreach(App::getInstance()->getTable('Post')->meuble() as $post): ?>
-
-                            <p><?= $post->ExtraitOther; ?></p>
-
-                        <?php endforeach; ?>
-                    </p>
-                    <p>
-                        <?php foreach(App::getInstance()->getTable('Post')->meuble() as $post): ?>
-
-                            <p><?= $post->ExtraitOther; ?></p>
 
                         <?php endforeach; ?>
                     </p>
