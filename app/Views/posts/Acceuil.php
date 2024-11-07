@@ -13,11 +13,14 @@
 
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
+   <!-- Lien vers fichier JS -->
    <script src="../public/js/Carousel.js"></script>
+   <script src="../public/js/Code.js"></script>
+   <script src="../public/js/onglet.js"></script>
 
 <link rel="stylesheet" href="../public/css/Acceuil.css">
 
-    <title><?= App::getInstance()->title; ?></title>
+    <title><?= App::getInstance()->title; ?> | Acceuil</title>
 </head>
 <body>
 
@@ -929,12 +932,9 @@
     </div>
 </footer>
 
-<!-- Lien vers fichier JS -->
-<script src="../public/js/script.js"></script>
-<script src="../public/js/Code.js"></script>
-<script src="../public/js/onglet.js"></script>
+
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
